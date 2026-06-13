@@ -180,7 +180,8 @@ export default function Dashboard() {
     });
 
     // Alt Bilgi (Footer) ve GDPR Bildirimi
-    const pageCount = doc.internal.getNumberOfPages();
+    // TypeScript build hatasını çözen kısım: doc as any
+    const pageCount = (doc as any).internal.getNumberOfPages();
     for (let i = 1; i <= pageCount; i++) {
       doc.setPage(i);
       doc.setFontSize(8);
