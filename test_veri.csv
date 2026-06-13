@@ -1,0 +1,14 @@
+StationName,TaktTime,ActualTime
+Stamping Press,15,14
+Body Welding Cell 1,30,28
+Body Welding Cell 2,30,35
+Primer Application,20,22
+Base Coat Application,25,24
+Clear Coat & Curing,40,58
+Chassis Marriage,45,46
+Engine Installation,50,65
+Interior Trim Assembly,60,58
+Electrical Harnessing,35,35
+Quality Gate 1,15,12
+Water Leak Test,20,19
+Final Inspection,30,28
