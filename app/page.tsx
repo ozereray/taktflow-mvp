@@ -312,8 +312,9 @@ export default function Dashboard() {
       },
       didParseCell: function (data) {
         if (data.section === "body") {
-          const status = data.row.raw[4];
-          const delayValue = data.row.raw[3];
+          const rowData = data.row.raw as any[];
+          const status = rowData[4];
+          const delayValue = rowData[3];
           const isPositiveDelay =
             typeof delayValue === "string" && delayValue.trim().startsWith("+");
 
