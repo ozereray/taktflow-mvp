@@ -1,0 +1,16 @@
+StationName,TaktTime,ActualTime
+Stamping Press,15,14
+Body Welding Cell 1,30,28
+Body Welding Cell 2,30,39
+Laser Roof Welding,25,25
+Primer Application,20,28
+Base Coat Application,25,24
+Clear Coat & Curing,40,62
+Chassis Marriage,45,46
+Battery Module Assembly,55,52
+Engine Installation,65,78
+Interior Trim Assembly,58,58
+Electrical Harnessing,35,35
+Quality Gate 1,12,12
+Water Leak Test,20,19
+Final Inspection,28,27
